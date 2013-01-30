@@ -40,4 +40,10 @@ usually in a callback, clear the mutex that was set above:
 
     $.fn.mutex('clear', "infinite-scroll");
 
+There is an index.html that includes jQuery and the plugin
+so it can be tested in the console. When working from the
+console, more verbose logging can be enabled in the 
+plugin by setting:
+
+    mutexLog = true;
 

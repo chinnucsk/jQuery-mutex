@@ -55,7 +55,7 @@
     } else if ( typeof method === 'object' || ! method ) {
       return methods.init.apply( this, arguments );
     } else {
-      if (mutexLog) { console.log( 'Method ' +  method + ' does not exist on jQuery.mutex' ); };
+      if (mutexLog) { console.log( 'Method ' +  method + ' does not exist on jQuery.fn.mutex' ); };
       return false;
     }
   
